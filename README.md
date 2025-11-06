@@ -169,7 +169,7 @@ Coming soon...
 
 ## Citation
 
-If you use TFLlib in your research, please cite our repo:
+If you find TFLlib useful in your research, please cite:
 
 ```bibtex
 @misc{chen2025tfllib,
