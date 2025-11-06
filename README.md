@@ -1,4 +1,6 @@
-# TFLlib: Trustworthy Federated Learning Library and Benchmark
+# <img src="docs/images/logo1.png" alt="icon" height="50" style="vertical-align:sub;"/> TFLlib: Trustworthy Federated Learning Library and Benchmark
+
+---
 
 TFLlib is a comprehensive library for trustworthy federated learning research based on [PFLlib](https://github.com/TsingZ0/PFLlib.git). It provides a unified framework to evaluate federated learning algorithms under various trustworthiness threats including backdoor attacks, Byzantine attacks, and privacy leakage.
 
