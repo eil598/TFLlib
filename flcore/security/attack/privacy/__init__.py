@@ -1,3 +1,3 @@
 from .inversion import *
-from .inference.LabelInferenceAttack import *
-from .inference.MembershipInferenceAttack import *
+from .inference.lia import *
+from .inference.mia import *

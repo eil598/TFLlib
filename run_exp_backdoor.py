@@ -200,7 +200,7 @@ if __name__ == "__main__":
     parser.add_argument("--poison_ratio", type=int, default=-1)
     args = parser.parse_args()
     args.exp_name = f"{args.exp_name}_{time_str}"
-    os.makedirs(f"/home/zzm/RFLlib/log/{args.exp_name}", exist_ok=True)
+    os.makedirs(f"./log/{args.exp_name}", exist_ok=True)
 
     bkd_attack_types = ['A3FL', 'DBA', 'Cerp', 'EdgeCase', 'Replace', 'Neurotoxin']
     datasets = ['AGNews', 'IMDB', 'CIFAR10', 'FEMNIST', 'Texas100', 'Purchase100']
