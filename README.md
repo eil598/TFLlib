@@ -71,6 +71,15 @@ TFLlib/
 └── config.py                 # Configuration parsing
 ```
 
+
+## ToDo List
+
+- ⭕️ Add the parameter configurations for each experiment script
+- ⭕️ Provide .toml configuration files for easy experiment reproduction
+- ⭕️ Polish the documentation and add more tutorials
+- ⭕️ Provide datasets and pretrained models download scripts
+- ⭕️ Add more defense mechanisms
+
 ## Getting Started
 
 ### Installation
