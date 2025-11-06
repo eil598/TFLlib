@@ -9,7 +9,7 @@ scripts/
 log_file
 *.log
 push2github.sh
-opensource1.md
+opensource.md
 .venv/
 __pycache__/
 *.pyc

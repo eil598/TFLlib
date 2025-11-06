@@ -26,7 +26,7 @@ TFLlib is a comprehensive library for trustworthy federated learning research ba
 - **NLP Models**: LSTM, BERT variants, ALBERT, ELECTRA, MobileBERT, MiniLM, TinyBERT
 - **Other Models**: Logistic Regression, HAR-CNN, DeepSpeech
 
-### Security Threats & Attacks
+### Security Threats & Attacks (updating)
 
 #### Poisoning Attacks
 - **Backdoor Attacks**: [DBA](), [A3FL](), [CerP](), [EdgeCase](), [Neurotoxin](), [Replace]()
@@ -38,9 +38,7 @@ TFLlib is a comprehensive library for trustworthy federated learning research ba
 - **Gradient Inversion Attacks**: DLG, Invert Gradients, See Through Gradients, LOKI, RobFed
 
 ### Defense Mechanisms
-- **Robust Aggregation**: Krum, Bulyan, Coordinate-wise Median/Trimmed Mean, Geometric Median
-- **Detection-Based**: Outlier Detection, Norm Difference Clipping, Cross-Round Defense
-- **Others**: Soteria, Weak Differential Privacy, Robust Learning Rate, Foolsgold
+Coming soon...
 
 ### Real-world Simulation
 - **System Heterogeneity**: Simulate varying computation capabilities of devices
