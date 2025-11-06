@@ -1,4 +1,4 @@
-# <img src="docs/images/logo1.png" alt="icon" height="50" style="vertical-align:sub;"/> TFLlib: Trustworthy Federated Learning Library and Benchmark
+# <img src="docs/images/logo1.png" alt="icon" height="50" width="100" style="vertical-align:sub;"/> TFLlib: Trustworthy Federated Learning Library and Benchmark
 
 ---
 
@@ -27,12 +27,12 @@ TFLlib is a comprehensive library for trustworthy federated learning research ba
 ### Security Threats & Attacks
 
 #### Poisoning Attacks
-- **Backdoor Attacks**: DBA, A3FL, CerP, EdgeCase, Neurotoxin, Replace
-- **Byzantine Attacks**: LIE, Fang, IPM, Label Flip, Median Tailored, Min-Max, Noise, Sign Flip, SignGuard, Update Flip
+- **Backdoor Attacks**: [DBA](), [A3FL](), [CerP](), [EdgeCase](), [Neurotoxin](), [Replace]()
+- **Byzantine Attacks**: [LIE](), [Fang](), [IPM](), [Label Flip](), [Median]() [Tailored](), [Min-Max](), [Noise](), [Sign Flip](), [SignGuard](), [Update Flip]()
 
 #### Privacy Attacks
 - **Membership Inference Attacks**: Nasr, Shokri, Zari, ML-Leaks
-- **Linkage Inference Attacks**: Various LIA methods
+- **Label Inference Attacks**: Various LIA methods
 - **Gradient Inversion Attacks**: DLG, Invert Gradients, See Through Gradients, LOKI, RobFed
 
 ### Defense Mechanisms
