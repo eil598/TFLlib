@@ -3,7 +3,7 @@ import yaml
 import torch
 from copy import deepcopy
 from collections import OrderedDict
-from ..base import BaseClientAttack
+from flcore.security.attack.poison.base import BaseClientAttack
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

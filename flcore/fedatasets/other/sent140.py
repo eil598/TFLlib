@@ -1,11 +1,8 @@
 
 import os
 import torch
-import spacy
-import numpy as np
-import pandas as pd
 from datasets import load_dataset
-from ..basedataset import TextDataset
+from flcore.fedatasets.basedataset import TextDataset
 
 
 class Sent140(TextDataset):

@@ -1,6 +1,6 @@
 
-from .poison import *
-from .privacy import *
+from flcore.security.attack.poison import *
+from flcore.security.attack.privacy import *
 
 
 _backdoor_client_attacker_dict_ = {"DBA":DBA, "Cerp":CerP, "EdgeCase":EdgeCase, "A3FL":A3FL, "Replace":Replace, "Neurotoxin":Neurotoxin, "None":BasePoisonAttack}

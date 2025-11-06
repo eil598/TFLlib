@@ -1,7 +1,6 @@
 import os
 import torch
 import logging
-import torchtext
 import pandas as pd
 from copy import deepcopy
 from sklearn.model_selection import train_test_split
@@ -9,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 
 logger = logging.getLogger(__name__)
 
-from ..basedataset import TabularDataset
+from flcore.fedatasets.basedataset import TabularDataset
 
 class Heart(TabularDataset):
     """
@@ -48,16 +47,6 @@ def fetch_heart(args, root, test_size):
         'va': '4249d03ca7711e84f4444768c9426170'
     } 
     COL_NAME = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'targets']
-    
-    def _download(root):
-        for hospital in URL.keys():
-            _ = torchtext.utils.download_from_url(
-                url=URL[hospital], 
-                root=root, 
-                hash_value=MD5[hospital], 
-                hash_type='md5'
-            )
-            os.rename(os.path.join(root, URL[hospital].split('/')[-1]), os.path.join(root, f'HEART ({hospital}).csv'))
     
     def _munge_and_split(root, hospital, test_size):
         # load data
@@ -100,7 +89,7 @@ def fetch_heart(args, root, test_size):
         return (Heart((train_inputs, train_targets)), Heart((test_inputs, test_targets))) 
         
     if not os.path.exists(os.path.join(root, 'heart')):
-        _download(root=os.path.join(root, 'heart'))
+        logger.info(f'[LOAD] [HEART] Check if raw data exists; if not, start downloading!')
     else:
         logger.info(f'[LOAD] [HEART] ...raw data already exists!')
     

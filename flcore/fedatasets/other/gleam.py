@@ -4,7 +4,7 @@ import logging
 import torchvision
 import pandas as pd
 import numpy as np
-from ..basedataset import TabularDataset
+from flcore.fedatasets.basedataset import TabularDataset
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 

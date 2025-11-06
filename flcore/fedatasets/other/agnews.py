@@ -1,12 +1,9 @@
 
 import os
 import torch
-import spacy
-import numpy as np
-import pandas as pd
 from copy import deepcopy
 from datasets import load_dataset
-from ..basedataset import TextDataset
+from flcore.fedatasets.basedataset import TextDataset
 
 
 class AGNews(TextDataset):

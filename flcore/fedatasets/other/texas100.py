@@ -3,13 +3,10 @@ The Texas100 dataset.
 """
 import os
 import logging
-import urllib
-import tarfile
 import torch
 import numpy as np
-from torch.utils import data
 from copy import deepcopy
-from ..basedataset import TabularDataset
+from flcore.fedatasets.basedataset import TabularDataset
 
 class Texas100(TabularDataset):
     """

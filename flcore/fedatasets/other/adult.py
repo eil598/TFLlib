@@ -1,10 +1,9 @@
 import os
 import torch
 import logging
-import torchtext
 import pandas as pd
 
-from ..basedataset import TabularDataset
+from flcore.fedatasets.basedataset import TabularDataset
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
@@ -38,22 +37,11 @@ def fetch_adult(args, root, test_size):
     ]
     NUM_COL = ['age', 'fnlwgt', 'capital_gain', 'capital_loss', 'house_per_week', 'education_num']
     
-    def _download(root):
-        for idx, (url, md5) in enumerate(zip(URL, MD5)):
-            _ = torchtext.utils.download_from_url(
-                url=url, 
-                root=root, 
-                hash_value=md5, 
-                hash_type='md5'
-            )
-            os.rename(os.path.join(root, url.split('/')[-1]), os.path.join(root, f"adult_{'train' if idx == 0 else 'test'}.csv"))
-    
     
         
     logger.info(f'[LOAD] [ADULT] Check if raw data exists; if not, start downloading!')
     if not os.path.exists(root):
-        _download(root)
-        logger.info(f'[LOAD] [ADULT] ...raw data is successfully downloaded!')
+        logger.info(f'Not implemented yet!')
     else:
         logger.info(f'[LOAD] [ADULT] ...raw data already exists!')
     

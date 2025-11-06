@@ -3,9 +3,8 @@ import json
 import torch
 import logging
 import random
-import torchvision
-from ..utils.transform import transform_torch as dataset_transform
-from ..basedataset import VisionDataset, ImageDataset
+from flcore.fedatasets.utils.transform import transform_torch as dataset_transform
+from flcore.fedatasets.basedataset import VisionDataset, ImageDataset
 
 logger = logging.getLogger(__name__)
 

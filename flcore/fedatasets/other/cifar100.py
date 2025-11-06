@@ -2,8 +2,8 @@ import os
 import torch
 import logging
 import torchvision
-from ..utils.transform import transform_torch as dataset_transform
-from ..basedataset import VisionDataset
+from flcore.fedatasets.utils.transform import transform_torch as dataset_transform
+from flcore.fedatasets.basedataset import VisionDataset
 
 logger = logging.getLogger(__name__)
 
